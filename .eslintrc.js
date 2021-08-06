@@ -25,10 +25,10 @@ module.exports = {
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
     ],
     'react/react-in-jsx-scope': 'off',
-    'no-use-before-define': 'off', // remove this line if you want to have errors if a variable is declared but never used
-    '@typescript-eslint/no-use-before-define': ['error'], // remove this line if you want to have errors if a variable is declared but never used
-    'no-shadow': 'off',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/no-shadow': ['error'],
+    'linebreak-style': 0,
     'import/extensions': [
       'error',
       'ignorePackages',
